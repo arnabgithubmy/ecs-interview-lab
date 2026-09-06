@@ -1,0 +1,18 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+
+# Terraform variable files containing secrets
+*.tfvars
+*.tfvars.json
+
+# Node
+node_modules/
+
+# Environment
+.env
+.env.*
