@@ -19,7 +19,7 @@ jobs:
         uses: aws-actions/configure-aws-credentials@v4
         with:
           role-to-assume: arn:aws:iam::730335474585:role/github-terraform-role
-          aws-region: us-east-1
+          aws-region: ap-south-1
 
       - name: Verify AWS identity
         run: aws sts get-caller-identity
